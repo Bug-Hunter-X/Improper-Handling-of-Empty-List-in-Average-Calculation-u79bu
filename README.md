@@ -1,0 +1,1 @@
+This repository demonstrates an example of a subtle bug in Python code. The function `calculate_average` fails to handle an empty input list gracefully. Instead of raising a ValueError or similar exception, it silently returns 0.  The improved solution raises a ValueError for better error handling.
